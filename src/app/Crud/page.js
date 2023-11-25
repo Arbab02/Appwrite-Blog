@@ -223,7 +223,7 @@ client
     </form>
   </section>
   
-  <section className="text-gray-400 bg-gray-900 body-font">
+  <section className="text-gray-400 body-font">
     <div className="container px-5 py-24 mx-auto">
       <div className="flex flex-wrap -m-4">
         <div className="p-4 lg:w-1/3">
