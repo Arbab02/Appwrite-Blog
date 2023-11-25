@@ -163,7 +163,7 @@ client
     return (
       <>
  
-  <section class="text-black bg-gray-900 body-font">
+  <section class="text-black body-font">
     <form class=" max-w-lg mx-auto p-4 bg-gray-800 rounded shadow-md">
       <div class="mb-4">
         <label for="title" class="block text-gray-400">Title </label>
