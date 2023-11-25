@@ -9,14 +9,12 @@ const Navbar = (props) => {
     setIsOpen(!isOpen);
   };
 
-  const logOut = () =>{
-location.href = 'localhost:3000/Home'
-  }
+ 
   return (
     <nav className="bg-gray-800 px-4 py-3">
       <div className="flex items-center justify-between">
         <div className="flex items-center">
-          <h1 className="text-white text-2xl font-bold">Your Logo</h1>
+          <h1 className="font-sans text-white text-2xl font-bold">DarkSide</h1>
           <button
             onClick={toggleMenu}
             className="md:hidden text-white focus:outline-none focus:text-white"
@@ -75,13 +73,7 @@ location.href = 'localhost:3000/Home'
               alt="User"
             />
             <span className="text-white ml-2">{props.title}</span>
-            <button
-          type="button"
-          class="flex-1 bg-blue-500 text-white font-semibold px-3 py-1 rounded hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-300 mr-2"
-          onClick={logOut}
-        >
-          Log Out
-          </button>
+           
           </div>
         </div>
       </div>
